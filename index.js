@@ -1,18 +1,14 @@
-// TODO: Include packages needed for this application
 const inquirer = require ("inquirer")
 const prompt = inquirer.createPromptModule()
 const generateMarkdown = require("./utils/generateMarkdown")
-// to not need a callback
 const {writeFile} = require("fs/promises")
 const path = require("path")
 
-// TODO: Create an array of questions for user input
-// ADD MORE Qs
 const questions = [
     {
         type: "input", name: "Title", message: "enter your project title"
     }, {
-        type: "input", name: "Description", message: "enter your project description"
+        type: "input", name: "Description", message: "enter your project description", default: "AS a USER, "
     }, {
         type: "input", name: "Installation", message: "enter installation instructions", default: "clone the repository and run npm i"
     }, {
@@ -26,15 +22,12 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     writeFile(path.join(__dirname, "/examples/", fileName), data)
 }
 
-// TODO: Create a function to initialize app
 function init() {
  prompt(questions).then(answers => writeToFile("README.md", generateMarkdown(answers)))
 }
 
-// Function call to initialize app
 init();

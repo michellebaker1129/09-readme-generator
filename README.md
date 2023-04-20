@@ -1,4 +1,35 @@
-# 09-readme-generator
+# README.md Generator
+
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+- [Badges](#Badges)
+
+
+
+### Title
+README Generator
+
+### Description
+As a developer
+
+### Installation
+clone the repository and run npm i
+
+### Usage
+click the link and the fun begins
+
+### Credits
+UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)
+
+### License
+MIT
+
+### Badges
+(https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)
 
 
 

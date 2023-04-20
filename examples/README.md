@@ -1,3 +1,7 @@
+// how do i:
+// get rid of the first undefined and license links
+// and move title to the TOP above TOC and make title # not ###
+
 # undefined
 
 [![License: undefined](https://img.shields.io/badge/License-undefined-yellow.svg)](https://opensource.org/licenses/undefined)
@@ -13,13 +17,13 @@
 
 
 ### Title
-s
+y
 
 ### Description
-s
+y
 
 ### Installation
-clone the repository and run npm i
+y
 
 ### Usage
 click the link and the fun begins
@@ -31,6 +35,6 @@ UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)
 MIT
 
 ### Badges
-(https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)
+y
 
 
