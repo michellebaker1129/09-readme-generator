@@ -28,7 +28,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
  prompt(questions).then(answers => writeToFile("README.md", generateMarkdown(answers)))
-    
 }
 
 // Function call to initialize app

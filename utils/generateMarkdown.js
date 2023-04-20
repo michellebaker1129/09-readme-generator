@@ -1,33 +1,68 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// TODO make more badges
 function renderLicenseBadge(license) {
-  if(license === "MIT") {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  if (license === "none") {
+    return ""
   }
+  if (license === "Apache 2.0") {
+    return `[![License](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)`
+  }
+  return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/${license})`
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "none") {
+    return ""
+  }
+  if (license === "Apache 2.0") {
+    return `https://opensource.org/licenses/Apache-2.0`
+  }
+  return `https://opensource.org/licenses/${license}`
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderTableOfContents(questions) {
+  return questions.slice(1).map((question) => {
+    return `- [${question[0]}](#${question[0]})\n`
+  }).join("")
+}
 
-// TODO: Create a function to generate markdown for README
+function renderSections(questions) {
+  return questions.map((question) => {
+    if (question[0] === "license") {
+      return `
+### ${question[0]}
+${question[1]}: ${renderLicenseLink(question[1])}\n`
+    }
+
+    if (question[0] === "usage") {
+      // return the steps in a list
+    }
+
+    return `
+### ${question[0]}
+${question[1]}\n`
+  }).join("")
+}
+
 function generateMarkdown(data) {
+  // {
+  //   title: 'test',
+  //   description: 'test',
+  //   installation: 'test',
+  //   license: 'none',
+  // }
+  const questions = Object.entries(data)
+  // [ ['title', 'test'], ['description', 'test'], ['installation', 'test'], ['license', 'none'] ]
+
+  const tableOfContents = renderTableOfContents(questions)
+
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
 ## Table of Contents
-- [description](#description)
-- //each question goes here, add to bottom description below
+${tableOfContents}
 
+${renderSections(questions)}
 
-### Description
-${data.description}
 `;
 }
 
