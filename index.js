@@ -10,16 +10,20 @@ const questions = [
     }, {
         type: "input", name: "Description", message: "enter your project description", default: "AS a USER, "
     }, {
-        type: "input", name: "Installation", message: "enter installation instructions", default: "clone the repository and run npm i"
+        type: "input", name: "Installation", message: "enter installation instructions", default: "Clone the repository and run npm i."
     }, {
-        type: "input", name: "Usage", message: "provide instructions and examples for use", default: "click the link and the fun begins"
+        type: "input", name: "Usage", message: "provide instructions and examples for use", default: "Click the link and let the fun begin..."
     }, {
         type: "input", name: "Credits", message: "list your collaborators", default: "UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)"
     }, {
         type: "list", name: "License", message: "select license from list", choices: ["MIT", "GPL", "Apache 2.0", "none"]
     }, {
-        type: "badges", name: "Badges", message: "demonstrate your street cred", default: "(https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)"
-    },
+        type: "contributing", name: "Contributing", message: "write any guidelines for how to contribute", default: "Please reach out to me if you want to collaborate or contribute. I have so much to learn!"
+    }, {    
+        type: "tests", name: "Tests", message: "provide a test example", default: "Test this project by clicking the deployed link."
+    }, {
+        type: "questions", name: "Questions", message: "Ask for questions", default: "Please do reach out with any questions."
+    }
 ];
 
 function writeToFile(fileName, data) {
