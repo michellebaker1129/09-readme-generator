@@ -1,24 +1,36 @@
-# u
+# undefined
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: undefined](https://img.shields.io/badge/License-undefined-yellow.svg)](https://opensource.org/licenses/undefined)
 
 ## Table of Contents
-- [description](#description)
-- [installation](#installation)
-- [license](#license)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+- [Badges](#Badges)
 
 
 
-### title
-u
+### Title
+s
 
-### description
-u
+### Description
+s
 
-### installation
+### Installation
 clone the repository and run npm i
 
-### license
-MIT: https://opensource.org/licenses/MIT
+### Usage
+click the link and the fun begins
+
+### Credits
+UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)
+
+### License
+MIT
+
+### Badges
+(https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)
 
 
