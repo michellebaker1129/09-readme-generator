@@ -10,16 +10,6 @@ function renderLicenseBadge(license) {
   }
 }
 
-// function renderLicenseLink(license) {
-//   if (license === "none") {
-//     return ""
-//   }
-//   if (license === "Apache 2.0") {
-//     return `https://opensource.org/licenses/Apache-2.0`
-//   }
-//   return `https://opensource.org/licenses/${license}`
-// }
-
 function renderTableOfContents(questions) {
   return questions
     .slice(1)
@@ -40,12 +30,7 @@ ${question[1]}\n`;
 }
 
 function generateMarkdown(data) {
-  // {
-  //   title: 'test',
-  //   description: 'test',
-  //   installation: 'test',
-  //   license: 'none',
-  // }
+
   const questions = Object.entries(data);
   // [ ['title', 'test'], ['description', 'test'], ['installation', 'test'], ['license', 'none'] ]
 

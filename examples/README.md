@@ -1,6 +1,6 @@
-# newer
+# New Project Title Test
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Table of Contents
 - [Description](#description)
@@ -15,7 +15,7 @@
 
 
 ### Description
-AS a USER, 
+As a USER, I want to generate a professional README.md more efficiently. 
 
 ### Installation
 Clone the repository and run npm i.
@@ -27,7 +27,7 @@ Click the link and let the fun begin...
 UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)
 
 ### License
-MIT
+GPL
 
 ### Contributing
 Please reach out to me if you want to collaborate or contribute. I have so much to learn!
@@ -36,6 +36,6 @@ Please reach out to me if you want to collaborate or contribute. I have so much 
 Test this project by clicking the deployed link.
 
 ### Questions
-Please do reach out with any questions.
+Please do find me on Gitub Tia Baker Brown https://github.com/michellebaker1129 or reach out via email michellebaker1129@gmail.com.
 
 

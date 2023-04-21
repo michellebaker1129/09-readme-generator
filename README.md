@@ -8,10 +8,6 @@
 - [License](#License)
 - [Badges](#Badges)
 
-TODO:
-// what are the best badges?
-// where do i put them? 
-// how do i get them to work? 
 
 (https://img.shields.io/static/v1?label=<license>&message=<MIT>&color=<yellow>)
 
@@ -24,7 +20,6 @@ GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
-TODO:
 WHEN I enter my project title
 THEN this is displayed as the title of the README
 
@@ -34,11 +29,9 @@ THEN this information is added to the sections of the README entitled Descriptio
 WHEN I choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
-TODO:
 WHEN I enter my GitHub username
 THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
 
-TODO:
 WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 

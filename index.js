@@ -22,7 +22,7 @@ const questions = [
     }, {    
         type: "tests", name: "Tests", message: "provide a test example", default: "Test this project by clicking the deployed link."
     }, {
-        type: "questions", name: "Questions", message: "Ask for questions", default: "Please do reach out with any questions."
+        type: "questions", name: "Questions", message: "github username", default: "Please do find me on Gitub Tia Baker Brown https://github.com/michellebaker1129 or reach out via email michellebaker1129@gmail.com."
     }
 ];
 
