@@ -1,4 +1,4 @@
-# New Project Title Test
+# Video Version of Generate README.md
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -15,7 +15,7 @@
 
 
 ### Description
-As a USER, I want to generate a professional README.md more efficiently. 
+As a USER, I want to make a professional README.md file more efficiently. 
 
 ### Installation
 Clone the repository and run npm i.

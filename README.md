@@ -9,7 +9,7 @@
 - [Badges](#Badges)
 
 
-(https://img.shields.io/static/v1?label=<license>&message=<MIT>&color=<yellow>)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ### Description
 As a developer
@@ -43,9 +43,11 @@ Clone the repository and run npm i.
 
 ### Usage
 Click the links in the Table of Contents and the fun begins...
+[Watch the fun here](https://watch.screencastify.com/v/VdmufEgVmD5evJUKqqD1)
+
 
 ### Credits
 UC Berkeley Coding Bootcamp, (https://bootcamp.berkeley.edu/coding/)
 
 ### License
-MIT [![License: undefined](https://img.shields.io/badge/License-undefined-yellow.svg)](https://opensource.org/licenses/undefined)
+GPL 
